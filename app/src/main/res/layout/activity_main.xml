@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. What does Pikachu evolve into?" />
+    <RadioGroup
+        android:id="@+id/Q1Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q1O1"
+            android:text="Raichu"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q1O2"
+            android:text="Pichu"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q1O3"
+            android:text="Pika Potatoe"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q1O4"
+            android:text="Pikamon"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. What type will Geodude be weak against?" />
+    <RadioGroup
+        android:id="@+id/Q2Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q2O1"
+            android:text="Electric"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q2O2"
+            android:text="Fire"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q2O3"
+            android:text="Water"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q2O4"
+            android:text="Anday wala burger"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. What is the last name of the character 'ASH'?" />
+    <RadioGroup
+        android:id="@+id/Q3Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q3O1"
+            android:text="Master"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q3O2"
+            android:text="Ketchum"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q3O3"
+            android:text="Ketchup"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q3O4"
+            android:text="Brock"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. What type of Pokemon is Misty afraid of?" />
+    <RadioGroup
+        android:id="@+id/Q4Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q4O1"
+            android:text="Water"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q4O2"
+            android:text="Rock"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q4O3"
+            android:text="Angel"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q4O4"
+            android:text="Bug"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Which on of these is a member of 'Team Rocket'?" />
+    <RadioGroup
+        android:id="@+id/Q5Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q5O1"
+            android:text="James"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q5O2"
+            android:text="Prof. Oak"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q5O3"
+            android:text="Jessica"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q5O4"
+            android:text="Pikachu"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Which of these is a Dragon type Pokemon?" />
+    <RadioGroup
+        android:id="@+id/Q6Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q6O1"
+            android:text="Charizard"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q6O2"
+            android:text="Dragonian Beast"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q6O3"
+            android:text="Shelgon"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q6O4"
+            android:text="Akshay Kumar"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. What does a Pikachu says?" />
+    <RadioGroup
+        android:id="@+id/Q7Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q7O1"
+            android:text="Eye to Eye"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q7O2"
+            android:text="Pika Pika"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q7O3"
+            android:text="Hey!"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q7O4"
+            android:text="I am Groot"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8. What can a Magikarp do?" />
+    <RadioGroup
+        android:id="@+id/Q8Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q8O1"
+            android:text="Magic show"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q8O2"
+            android:text="Solar Beam"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q8O3"
+            android:text="Nothing"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q8O4"
+            android:text="Splash!"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9. Which among these Pokemon is a Ghost type?" />
+    <RadioGroup
+        android:id="@+id/Q9Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q9O1"
+            android:text="Gengar"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q9O2"
+            android:text="Goldeen"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q9O3"
+            android:text="Mewtwo"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q9O4"
+            android:text="Eevee"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/Questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10. What type of Pokemon is Squirtle?" />
+    <RadioGroup
+        android:id="@+id/Q10Options"
+        style="@style/Answers">
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q10O1"
+            android:text="Normal"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q10O2"
+            android:text="Flying"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q10O3"
+            android:text="Water"/>
+        <RadioButton
+            style="@style/Answers"
+            android:id="@+id/Q10O4"
+            android:text="Diva"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Check Your Answers"
+        android:onClick="checkAnswers"/>
+
+</LinearLayout>
+
+</ScrollView>
